@@ -7,8 +7,8 @@ import French from "./components/French";
 function App() {
   return (
     <div className="App">
-      <India />
-      <French />
+      <India currency="Rupees" name="India" pin="12345"/>
+      <French currency="Euro" name="Franse" pin="567890"/>
     </div>
   );
 }
